@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#CREAR UN ARCHIVO VACIO
+touch archivo.txt
+
+#ACTUALIZAR LA MARCA DE TIEMPO SI EL ARCHIVO YA EXISTE
+touch archivo.txt
+
+#ESTABLECER UNA MARCA DE TIEMPO ESPECIFICA
+touch -t 202301011200 archivo.txt
+
+#CAMBIAR LA MARCA DE TIEMPO DE ACCESO
+touch -a archivo.txt
+
+#CAMBIAR LA MARCA DE TIEMPO DE MODIFICACION
+touch -m archivo.txt

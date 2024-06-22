@@ -1,0 +1,28 @@
+SINTAXIS DE VARIABLE
+
+    variable="$1"                           #Desde parametro
+
+    variable=$(date +"%Y-%m-%d %H:%M:%S")   #Desde comando
+
+    variable=$(<"$archivo")                 #Desde fichero
+
+    variable="Hola mundo"                   #Asignacion directa
+
+    read variable                           #Desde consola
+
+MANIPULACION DE VARIABLES
+
+    #Definir variable
+    frase="¡Hola, mundo!"
+
+    #Concatenar texto a la variable
+    frase="$frase soy un script Bash"
+
+    #Mostrar variable
+    echo "$frase"
+
+    #Asignar valor de una a otra
+    mensaje="$frase"
+
+    #Asignar el valor de una variable a un archivo
+    echo "$mensaje" > archivo.txt

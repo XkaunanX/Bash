@@ -1,0 +1,18 @@
+#SINTAXIS WHILE
+
+while CONDICION
+do
+
+    #codigo a ejecutar mientras la condicion sea verdadera
+    #Puede incluir multiples comandos o llamadas a funciones
+
+done < "stdin"   #Puede especificar la entrada del bucle desde un archivo en lugar de la entrada estandar cuando se usa una entrada como condicion EJ: read
+
+#SINTAXIS FOR
+
+for ITEM in LISTA
+do
+
+    #Comando a ejecutar para cada elemento en la LISTA
+
+done
