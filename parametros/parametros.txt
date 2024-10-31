@@ -1,0 +1,19 @@
+SINTAXIS PARAMETROS 
+
+./script.sh <parametro> <parametro> ... <parametro>
+
+VARIABLES DE PARAMETROS O POSICION
+
+    $0:                         #Devuelve el nombre del script
+
+    $1, $2, $3, ..., $n:        #Devuelve el argumento posicionado en n
+
+    $@                          #Devuelve una lista con todos los argumentos
+
+    $*                          #Devuelve todos los argumentos como una sola cadena
+
+    $#                          #Devuelve la cantidad de argumentos
+
+    $$                          #Devuelve el PID del script actual
+
+    $?                          #Devuelve el codigo de salida del ultimo comando
