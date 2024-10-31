@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#OTORGAR PERMISOS 777 AL DIRECTORIO ACTUAL Y A TODOS SUS ARCHIVOS Y SUBDIRECTORIOS
+chmod -R 777 .
+
+echo "Permisos otorgados..."
