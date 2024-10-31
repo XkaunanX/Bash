@@ -1,0 +1,8 @@
+#SINTAXIS FOR
+
+for ITEM in LISTA
+do
+
+    #Comando a ejecutar para cada elemento en la LISTA
+
+done

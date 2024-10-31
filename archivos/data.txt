@@ -1,0 +1,15 @@
+hola,chau,despedida,saludo
+
+rojo,azul,celeste,amarillo,negro,blanco 
+
+nissan,ford,chevrolet,volskwagen,suzuki,honda
+
+assembler,c,vb,react,java
+
+columna1 columna2 columna3
+
+perro   gato    leon
+
+pollo   guepardo    liebre
+
+pato    gorila  lombriz
